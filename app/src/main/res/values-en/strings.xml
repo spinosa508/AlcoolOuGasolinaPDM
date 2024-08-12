@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="app_name">Which fuel?</string>
+    <string name="_75">75%</string>
+    <string name="Calcular">Calculate</string>
+    <string name="emDuvida">"Don't know which is better yet."</string>
+    <string name="Alcool">Alcohol</string>
+    <string name="Gasolina">Gasoline</string>
+    <string name="GasOuAlc">Gasoline or Alcohol?</string>
+    <string name="descricaoImagem">An colorful illustration of a gas pump</string>
+</resources>

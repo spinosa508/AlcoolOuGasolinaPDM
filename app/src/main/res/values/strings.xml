@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">Com qual combustível?</string>
     <string name="_75">75%</string>
+    <string name="Calcular">Calcular</string>
+    <string name="emDuvida">"Ainda não sei qual é a melhor."</string>
+    <string name="Alcool">Alcool</string>
+    <string name="Gasolina">Gasolina</string>
+    <string name="GasOuAlc">Gasolina ou Álcool?</string>
+    <string name="descricaoImagem">A imagem de uma bomba de alcool colorida ilustrando o app</string>
 </resources>

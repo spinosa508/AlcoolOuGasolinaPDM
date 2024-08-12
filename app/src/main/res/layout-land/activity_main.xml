@@ -9,8 +9,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="350dp"
-        android:layout_height="500dp"
+        android:layout_width="600dp"
+        android:layout_height="300dp"
         android:layout_marginStart="2dp"
         android:layout_marginEnd="2dp"
         android:background="@drawable/rounded_layout"
@@ -25,18 +25,28 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="left"
+            android:layout_marginLeft="30dp"
             android:contentDescription="@string/descricaoImagem"
             android:paddingVertical="3dp"
             android:textAlignment="center"
             app:srcCompat="@mipmap/ic_joao_pdm_foregrounf" />
 
+        <Button
+            android:id="@+id/btCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#CB584C"
+            android:text="@string/Calcular" />
+
         <TextView
             android:id="@+id/titulo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="30dp"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_marginLeft="30dp"
             android:text="@string/GasOuAlc"
             android:textAlignment="center"
             android:textColor="#FFC107"
@@ -47,7 +57,8 @@
             android:id="@+id/edAlcool"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_marginLeft="30dp"
             android:ems="10"
             android:hint="@string/Alcool"
             android:inputType="numberDecimal" />
@@ -56,7 +67,8 @@
             android:id="@+id/edGasolina"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="center_horizontal|left"
+            android:layout_marginLeft="30dp"
             android:ems="10"
             android:hint="@string/Gasolina"
             android:inputType="numberDecimal" />
@@ -65,23 +77,16 @@
             android:id="@+id/swPercentual"
             android:layout_width="116dp"
             android:layout_height="51dp"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
             android:text="@string/_75" />
-
-        <Button
-            android:id="@+id/btCalcular"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginVertical="20dp"
-            android:backgroundTint="#CB584C"
-            android:text="@string/Calcular" />
 
         <TextView
             android:id="@+id/textMsg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
+            android:layout_gravity="right|top"
             android:text="@string/emDuvida"
             android:textColor="@color/white"
             android:textSize="20sp" />
